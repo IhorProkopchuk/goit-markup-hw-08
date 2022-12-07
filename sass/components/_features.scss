@@ -14,7 +14,6 @@
     }
 
     &__title {
-    /*@include text;*/
     font-family: 'Roboto';
     font-size: 14px;
     font-weight: 700;
@@ -32,6 +31,7 @@
     }
 
     &__text {
+    font-family: 'Roboto';
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
