@@ -243,7 +243,7 @@ img {
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
-  outline: 2px dotted red;
+  /*outline: 2px dotted red;*/
 }
 @media screen and (min-width: 480px) {
   .container {
