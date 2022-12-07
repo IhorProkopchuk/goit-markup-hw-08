@@ -1,5 +1,4 @@
 .social {
-    /*@include centredFlex;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,7 +7,6 @@
     &__text {
     margin-bottom: 10px;
     font-weight: 700;
-    /*@include text;*/
     font-family: 'Roboto';
     font-size: 14px;
     line-height: 1.14;
