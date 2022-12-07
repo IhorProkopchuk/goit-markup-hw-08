@@ -1,0 +1,41 @@
+.social {
+    /*@include centredFlex;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    &__text {
+    margin-bottom: 10px;
+    font-weight: 700;
+    /*@include text;*/
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+    }
+
+    &__icon {
+    fill: currentColor;
+    }
+}
+
+.social__link {
+    display: block;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    border-radius: 50%;
+    color: var(--icon-color);
+
+    transition: color 250ms var(--animation-function),
+    background-color 250ms var(--animation-function);
+
+    &:hover,
+    &:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    }
+}

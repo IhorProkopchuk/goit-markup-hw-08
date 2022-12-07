@@ -1,0 +1,25 @@
+:root {
+/*font sets*/
+    --text-primary: 'Roboto', sans-serif;
+
+
+/*font color sets*/
+    --primary-text-color: #757575;
+    --second-text-color: rgba(255, 255, 255, 0.6);
+    --title-text-color: #212121;
+
+/*btn sets*/
+    --button-bg-color: #f5f4fa;
+    --button-hover-color: #188ce8;
+
+/*background sets*/
+    --accent-color: #2196f3;
+    --primary-white-color: #ffffff;
+    --second-background-color: #2f303a;
+
+/*icons fill*/
+    --icon-color: #afb1b8;
+
+/*default animation effect*/
+    --animation-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

@@ -1,0 +1,24 @@
+/*utils styles*/
+/*@import './utils/mixins';*/
+@import './utils/variables';
+@import './utils/visually_hidden';
+
+/*base styles*/
+/*@import './base/modern';*/
+@import './base/reset';
+
+/*components styles*/
+@import './components/burger-menu';
+@import './components/container';
+@import './components/logo';
+@import './components/buttons';
+@import './components/page-header';
+@import './components/page1-hero';
+@import './components/features';
+@import './components/about.scss';
+@import './components/team.scss';
+@import './components/socials';
+@import './components/clients';
+@import './components/artworks';
+@import './components/footer';
+@import './components/modal';

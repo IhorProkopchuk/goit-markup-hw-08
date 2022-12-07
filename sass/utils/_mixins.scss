@@ -1,0 +1,30 @@
+@mixin centredFlex {
+    display: flex;
+    align-items: center;
+}
+
+@mixin title($fs: 36px) {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: $fs;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+@mixin text {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+
+@mixin text-card($fs: 16px) {
+    font-size: $fs;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
