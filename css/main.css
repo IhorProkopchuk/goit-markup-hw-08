@@ -19,29 +19,11 @@
   --animation-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
+/*@import './utils/visually_hidden';*/
 /*base styles*/
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
-}
-@media screen and (max-width: 1199px) {
-  body.modal-open {
-    overflow: hidden;
-  }
 }
 
 h1,
@@ -287,7 +269,6 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .logo__text {
-    /*@include text-card(26px);*/
     font-size: 26px;
     line-height: 1.19;
     text-align: center;
@@ -331,7 +312,6 @@ img {
 }
 @media screen and (min-width: 768px) {
   .header__container {
-    /*@include centredFlex;*/
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -342,7 +322,6 @@ img {
 }
 
 .header__box {
-  /*@include centredFlex;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -359,7 +338,6 @@ img {
 }
 
 .menu {
-  /*@include centredFlex;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -386,6 +364,7 @@ img {
 }
 
 .nav-list {
+  font-family: "Roboto";
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -478,7 +457,6 @@ img {
 }
 
 .group__link {
-  /*@include centredFlex;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -601,7 +579,6 @@ img {
   background-color: var(--button-bg-color);
 }
 .features-list__title {
-  /*@include text;*/
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 700;
@@ -618,6 +595,7 @@ img {
   }
 }
 .features-list__text {
+  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -655,7 +633,6 @@ img {
 }
 .about__title {
   margin-bottom: 50px;
-  /*@include title;*/
   font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
@@ -678,7 +655,6 @@ img {
   bottom: 0;
   padding: 27px;
   width: 100%;
-  /*@include text;*/
   font-family: "Roboto";
   font-size: 14px;
   line-height: 1.14;
@@ -716,7 +692,6 @@ img {
   background-color: var(--button-bg-color);
 }
 .team__title {
-  /*@include title(28px);*/
   font-family: "Roboto";
   font-weight: 700;
   font-size: 28px;
@@ -729,7 +704,6 @@ img {
 @media screen and (min-width: 1200px) {
   .team__title {
     margin-bottom: 50px;
-    /*@include title;*/
     font-family: "Roboto";
     font-weight: 700;
     font-size: 36px;
@@ -782,7 +756,6 @@ img {
   text-align: center;
 }
 .team-card__name {
-  /*@include text-card;*/
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -792,7 +765,6 @@ img {
   color: var(--title-text-color);
 }
 .team-card__role {
-  /*@include text-card;*/
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -804,7 +776,6 @@ img {
 }
 
 .social {
-  /*@include centredFlex;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -819,7 +790,6 @@ img {
 .social__text {
   margin-bottom: 10px;
   font-weight: 700;
-  /*@include text;*/
   font-family: "Roboto";
   font-size: 14px;
   line-height: 1.14;
@@ -860,7 +830,6 @@ img {
 }
 
 .clients__title {
-  /*@include title(28px);*/
   font-family: "Roboto";
   font-weight: 700;
   font-size: 28px;
@@ -873,7 +842,6 @@ img {
 @media screen and (min-width: 1200px) {
   .clients__title {
     margin-bottom: 50px;
-    /*@include title;*/
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -1192,12 +1160,14 @@ img {
   }
 }
 .address__map {
+  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
 .address__link {
+  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -1206,6 +1176,7 @@ img {
 
 .socials {
   margin-top: 60px;
+  margin-bottom: 60px;
 }
 @media screen and (min-width: 768px) {
   .socials {
@@ -1218,7 +1189,6 @@ img {
   }
 }
 .socials__text {
-  /*@include text;*/
   font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
@@ -1244,7 +1214,6 @@ img {
 }
 
 .subscribe__text {
-  /*@include text;*/
   font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
@@ -1257,7 +1226,6 @@ img {
 
 @media screen and (min-width: 1200px) {
   .subscribe-form {
-    /*@include centredFlex;*/
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1361,16 +1329,17 @@ img {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  -webkit-transform: translate(-50%, -65%);
+          transform: translate(-50%, -65%);
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form {
   position: relative;
   padding: 40px;
-  /*display:block;
-  align-items: center;
-  justify-content: center;
-  width: 528px;
-  min-height: 581px;*/
   border-radius: 4px;
   background-color: #FFFFFF;
   -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
