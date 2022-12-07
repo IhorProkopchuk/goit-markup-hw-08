@@ -1,5 +1,4 @@
 /*utils styles*/
-/*@import './utils/mixins';*/
 :root {
   /*font sets*/
   --text-primary: "Roboto", sans-serif;
@@ -35,7 +34,6 @@
 }
 
 /*base styles*/
-/*@import './base/modern';*/
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
