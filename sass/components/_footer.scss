@@ -50,12 +50,14 @@
     }
 
     &__map {
+    font-family: 'Roboto';
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-white-color);
     }
     &__link {
+    font-family: 'Roboto';
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -65,6 +67,7 @@
 
 .socials {
     margin-top: 60px;
+    margin-bottom: 60px;
     
     @media screen and (min-width: 768px) {
     margin-top: 0;
@@ -75,7 +78,6 @@
     }
 
     &__text {
-    /*@include text;*/
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
@@ -104,7 +106,6 @@
 }
 
 .subscribe__text {
-    /*@include text;*/
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
@@ -113,12 +114,12 @@
     text-transform: uppercase;
     color: var(--primary-white-color);
 
+
     margin-bottom: 20px;
 }
 
 .subscribe-form {
     @media screen and (min-width: 1200px) {
-    /*@include centredFlex;*/
     display: flex;
     align-items: center;
     }
