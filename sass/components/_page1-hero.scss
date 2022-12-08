@@ -1,72 +1,69 @@
-.order {
-max-width: 1600px;
-padding: 118px 0;
-margin-left: auto;
-margin-right: auto;
 
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background-color: #c4c4c4;
-background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+.order {
+    max-width: 1600px;
+    padding: 118px 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #c4c4c4;
+    background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
     url('../images/hero/hero_mob@1x_480.jpg');
 
-@media screen and (min-device-pixel-ratio: 2),
+    @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and(min-resolution: 2dppx) {
-    background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-    url('../images/hero/hero_mob@2x_960.jpg');
-}
+        background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+        url('../images/hero/hero_mob@2x_960.jpg');
+    }
 
-@media screen and (min-width: 481px) {
-    background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+    @media screen and (min-width: 481px) {
+        background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
     url('../images/hero/hero_tab@1x_768.jpg');
 
     @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    background-image: linear-gradient(0deg,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+        background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
     url('../images/hero/hero_tab@2x_1536.jpg');
         }
-}
+    }
 
-@media screen and (min-width: 769px) {
+    @media screen and (min-width: 769px) {
     min-height: 400px;
     background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-    url('../images/hero/hero_ds@1x_1600.jpg');
-
+        url('../images/hero/hero_ds@1x_1600.jpg');
     background-size: cover;
 
     @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+            background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
         url('../images/hero/hero_ds@2x_3200.jpg');
         }
-}
+    }
 
-@media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1200px) {
     max-height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
     url('../images/hero/hero_ds@1x_1600.jpg');
-
     background-size: 1600px 600px;
 
     @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-        url('../images/hero/hero_ds@2x_3200.jpg');
+    url('../images/hero/hero_ds@2x_3200.jpg');
+        }
     }
-
 
     &__hero {
     margin-left: auto;
     margin-right: auto;
     }
-}
 }
 
 .hero {
@@ -80,10 +77,10 @@ background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58
     }
 
     &__title {
-    font-family: 'Roboto';
     margin-bottom: 30px;
+    font-family: 'Roboto';
     font-weight: 800;
-    font-size: 5.4vw;
+    font-size: 26px;
     line-height: 1.6;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -91,7 +88,7 @@ background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58
 
     @media screen and (min-width: 481px) {
         font-size: 26px;
-        }
+    }
 
 
     @media screen and (min-width: 1200px) {
