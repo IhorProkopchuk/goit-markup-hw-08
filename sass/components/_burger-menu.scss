@@ -10,6 +10,7 @@
     background-color: var(--primary-white-color);
     border: none;
     cursor: pointer;
+    
 }
 
     @media (min-width: 768px) {
@@ -42,6 +43,7 @@
 
     transform: translateX(100%);
     transition: transform 250ms var(--animation-function);
+
 }
 
 .menu-container.is-open {
