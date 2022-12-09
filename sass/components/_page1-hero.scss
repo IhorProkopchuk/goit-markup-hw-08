@@ -7,7 +7,6 @@
     background-position: center;
     background-size: cover;
     background-color: #c4c4c4;
-    overflow: hidden;
     background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
     url('../images/hero/hero_mob@1x_480.jpg');
 
@@ -67,16 +66,28 @@
 }
 
 .hero {
-    width: 360px;
-    height: 164px;
-    text-align: center;
+
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 360px;
+    
+
+    @media screen and (min-width: 481px) {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 360px;
+    }
 
     @media screen and (min-width: 1200px) {
-    width: 696px;
-    height: 200px;
+        text-align: center;
+        width: 696px;
     }
 
     &__title {
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 30px;
     font-family: 'Roboto';
     font-weight: 800;
