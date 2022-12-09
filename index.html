@@ -648,9 +648,22 @@
               <span class="form-label">Коментар</span> 
                 <textarea class="form-message" name="form-msg" cols="30" rows="10" placeholder="Введіть текст"></textarea>
             </label>
-            <label class="form-agreement">
-              <input class="form-checkbox" type="checkbox" name="agreement-checkbox"/>
-              <span class="form-agreement-text">Погоджуюся з розсилкою та приймаю <a class="form-agreement-link" href="#">Умови договору</a></span>
+            <label class="checkbox">
+              <input class="checkbox__input" type="checkbox" name="consent" />
+              <svg class="checkbox__icon" width="16" height="15">
+                <use
+                  class="checkbox__unchecked"
+                  href="./images/icons.svg#icon-uncheck"
+                ></use>
+                <use
+                  class="checkbox__checked"
+                  href="./images/icons.svg#icon-check"
+                ></use>
+              </svg>
+              <span class="checkbox__text">Погоджуюся з розсилкою та приймаю</span>
+              <a href=""
+                ><span class="checkbox__text--link">Умови договору</span></a
+              >
             </label>
             <button class="button form-btn" type="submit">Відправити</button>
             <button class="close-btn" type="button" data-modal-close>

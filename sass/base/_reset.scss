@@ -1,6 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
+
+    @media screen and (max-width: 1199px) {
+        &.modal-open {
+        overflow: hidden;
+        }
+    }
 }
 
 h1,
