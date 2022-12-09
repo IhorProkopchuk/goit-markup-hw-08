@@ -67,23 +67,20 @@
 
 .hero {
 
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 360px;
-    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;    
 
-    @media screen and (min-width: 481px) {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+    @media screen and (min-width: 480px) {
         width: 360px;
     }
 
     @media screen and (min-width: 1200px) {
-        text-align: center;
         width: 696px;
+        height: 200px;
     }
+
+
 
     &__title {
     margin-left: auto;
