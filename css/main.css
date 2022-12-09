@@ -161,7 +161,6 @@ img {
 
 .mobile-menu__link {
   display: block;
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 8vw;
   line-height: 1.19;
@@ -176,7 +175,6 @@ img {
 }
 
 .mobile-contacts__link {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 7vw;
   line-height: 1.17;
@@ -208,7 +206,6 @@ img {
   display: -ms-flexbox;
   display: flex;
   margin-right: 10px;
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 3.7vw;
   line-height: 1.22;
